@@ -1,3 +1,5 @@
+@import 'page/login/login.css';
+@import 'page/register/register.css';
 .App {
   text-align: center;
 }

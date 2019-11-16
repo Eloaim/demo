@@ -1,0 +1,12 @@
+.option-contain{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.imag-flow-char{
+    align-self:center;
+    height: 500px;
+}
+.option-flowchar-button{
+    align-self: flex-end;
+}

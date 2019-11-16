@@ -1,0 +1,76 @@
+.gutter-example .ant-row > div {
+    background: transparent;
+    border: 0;
+    padding-top: 10px
+  }
+  .gutter-box1 {
+    background:linear-gradient(to right, rgb(255,105,104), rgb(255,67,69));
+    padding: 5px 0;
+    height: 200px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+  }
+  .gutter-box2 {
+    background:linear-gradient(to left, rgb(46,88,224), rgb(51,97,237));
+    padding: 5px 0;
+    height: 200px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+  }
+  .gutter-box3 {
+    background:linear-gradient(to left, rgb(47,217,226), rgb(58,238,245));
+    padding: 5px 0;
+    height: 200px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+  }
+  .index-title{
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .gutter-box1-text1{
+    color: rgb(252,226,198);
+    font-size: 15px;
+    padding: 20px 0 0px 20px;
+  }
+  .gutter-box1-text2{
+    color: white;
+    font-size: 20px;
+    padding: 0px 0px 0px 20px;
+    font-weight: bold;
+  }
+
+  .gutter-box2-text1{
+    color: rgb(154,179,244);
+    font-size: 15px;
+    padding: 20px 0 0px 20px;
+  }
+  .gutter-box2-text2{
+    color: white;
+    font-size: 20px;
+    padding: 0px 0px 0px 20px;
+    font-weight: bold;
+  }
+
+  .gutter-box3-text1{
+    color: rgb(54,137,167);
+    font-size: 15px;
+    padding: 20px 0 0px 20px;
+  }
+  .gutter-box3-text2{
+    color: white;
+    font-size: 20px;
+    padding: 0px 0px 0px 20px;
+    font-weight: bold;
+  }
+  .Progress{
+    padding: 40px 15px 15px 15px;
+  }
+  .index-project{
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 50px;
+  }
