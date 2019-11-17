@@ -1,0 +1,7 @@
+.upload-content{
+    display: flex;
+    justify-content: space-around;
+}
+.Dragger{
+    width: 800px;
+}

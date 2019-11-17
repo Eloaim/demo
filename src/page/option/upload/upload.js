@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form , Button , Upload , Icon , message} from 'antd';
+import { Form , Button , Upload , Icon , message, Timeline} from 'antd';
 import {
   BrowserRouter as Router,
   Switch,
@@ -7,7 +7,7 @@ import {
   Link
 } from "react-router-dom";
 import 'antd/dist/antd.css';
-
+import './upload.css'
 const { Dragger } = Upload;
 
 const props = {
@@ -40,16 +40,25 @@ class upload extends React.Component {
   render() {
     return (
         <div className='upload-contain' style={{ padding: 24, background: '#fff', minHeight: 600 }}>
-            <Dragger {...props}>
-            <p className="ant-upload-drag-icon">
-            <Icon type="inbox" />
-            </p>
-            <p className="ant-upload-text">Click or drag file to this area to upload</p>
-            <p className="ant-upload-hint">
-            Support for a single or bulk upload. Strictly prohibit from uploading company data or other
-            band files
-            </p>
-            </Dragger>
+           <div className='upload-content'>
+                <Dragger className='Dragger' {...props}>
+                <p className="ant-upload-drag-icon">
+                <Icon type="inbox" />
+                </p>
+                <p className="ant-upload-text">点击或拖拽文件到此区域上传</p>
+                <p className="ant-upload-hint">
+                支持单次或批量上传
+                </p>
+                </Dragger>
+
+                <Timeline className='Timekine'>
+                <Timeline.Item color="green">开始</Timeline.Item>
+                <Timeline.Item>未提交</Timeline.Item>
+                <Timeline.Item dot={<Icon type="clock-circle-o" style={{ fontSize: '16px' }} />}>待审核</Timeline.Item>
+                <Timeline.Item color="gray">结束</Timeline.Item>
+                </Timeline>
+           </div>
+
         </div>
         
 

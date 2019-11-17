@@ -14,7 +14,7 @@ import {
   Button,
   AutoComplete,
 } from 'antd';
-
+import {Link} from "react-router-dom"
 const { Option } = Select;
 const AutoCompleteOption = AutoComplete.Option;
 
@@ -207,9 +207,11 @@ class RegistrationForm extends React.Component {
           )}
         </Form.Item>
         <Form.Item {...tailFormItemLayout}>
-          <Button type="primary" htmlType="submit">
-            注册
-          </Button>
+          <Link to={'/'}>
+            <Button type="primary" htmlType="submit">
+              注册
+            </Button>
+          </Link>
         </Form.Item>
       </Form>
       </div>

@@ -54,7 +54,6 @@ class NormalLoginForm extends React.Component {
     return (
       <div className="login">
                 <div className="login-form">
-                    <img src='../../../images/flow-char.png' alt='flow char'/>
                     <Form onSubmit={this.handleSubmit} style={{maxWidth: '300px'}}>
                         <Form.Item>
                             {getFieldDecorator('username', {
