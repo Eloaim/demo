@@ -17,7 +17,10 @@ import SiderCustom from './SiderCustom'
 import HeaderCustom from './HeaderCustom'
 import option1 from '../option/option1';
 import Upload from '../option/upload/upload.js';
-import Tab from '../option/CharFrom/CharFrom.js';
+import Tab from '../option/CharForm/CharForm.js';
+import Success from '../option/success/suceess';
+import Fail from '../option/404/404';
+import Finally from '../option/Finally/Finally';
 const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
 
@@ -48,6 +51,9 @@ class SiderDemo extends React.Component {
               <Route exact path={'/server/option1'} component={option1} />
               <Route exact path={'/server/option1/upload'} component={Upload} />
               <Route exact path={'/server/option1/upload/from'} component={Tab} />
+              <Route exact path={'/server/option1/upload/from/success'} component={Success} />
+              <Route exact path={'/server/option1/upload/from/success/Finally'} component={Finally} />
+              <Route exact path={'/server/option1/upload/from/404'} component={Fail} />
               <Route exact path={'/server/option2'} component={Option2} />
             </Switch>
           </Content>

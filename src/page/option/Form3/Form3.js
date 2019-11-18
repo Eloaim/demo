@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './From3.css'
+import './Form3.css'
 //import ReactDOM from 'react-dom';
 import {
   Form,
@@ -28,8 +28,8 @@ class Form3 extends React.Component {
   render() {
 
     return (
-        <div className='From3-body' style={{ padding: 24, background: '#fff'}}>
-            <div className='From3-content'>
+        <div className='Form3-body' style={{ padding: 24, background: '#fff'}}>
+            <div className='Form3-content'>
             <h1>软件评测现场测试申请表</h1>
             <h2>xx公司</h2>
             <h2>xx软件</h2>

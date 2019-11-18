@@ -1,7 +1,7 @@
-.CharFrom-contain{
+.CharForm-contain{
     
 }
-.CharFrom-content{
+.CharForm-content{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -19,13 +19,19 @@
     display: flex;
     flex-direction: column;
 }
-.Idcard{
+.CharForm-Idcard{
     display: flex;
     flex-direction: column;
     height: 1350px;
     justify-content:space-between;
 }
-.CharFrom-button{
+.CharForm-button{
     align-self: flex-end;
     justify-items: flex-end;
+}
+.CharForm-button-404{
+    background-color: white;
+    border-color: white;
+    color: rgb(250, 250, 250);
+    border: 0px;
 }

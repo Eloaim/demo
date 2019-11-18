@@ -1,9 +1,9 @@
-.From2-title{
+.Form2-title{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.From2-title h1{
+.Form2-title h1{
     font-size:x-large ;
     align-items: center;
 }

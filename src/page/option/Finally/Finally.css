@@ -1,0 +1,18 @@
+.Finally-contain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Finally-Idcard{
+    display: flex;
+    justify-content: space-between;
+}
+.Finally-Result-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+.Finally-Result-content text{
+    padding-top: 5px;
+}

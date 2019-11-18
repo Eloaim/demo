@@ -1,0 +1,28 @@
+.success-contain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Timekine-Idcard{
+    display: flex;
+    justify-content: space-between;
+}
+
+.success-Idcard{
+    align-self: flex-start;
+}
+.success-Result{
+    align-self: flex-start;
+}
+.Timekine-Idcard{
+    width: 50%;
+}
+.List-header{
+    display: flex;
+    justify-content: center;
+}
+.List-footer{
+    display: flex;
+    justify-content: center;
+}

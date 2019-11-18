@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
 import { Tabs , Button , Icon , Timeline ,Tag} from 'antd';
-import From1 from '../From1/From1';
+import Form1 from '../Form1/Form1';
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,9 +11,9 @@ import {
   Link
 } from "react-router-dom";
 import Idcard from '../upload/idcard'
-import './CharFrom.css'
-import From2 from '../From2/From2';
-import From3 from '../Form3/From3';
+import './CharForm.css'
+import Form2 from '../Form2/Form2';
+import Form3 from '../Form3/Form3';
 const { TabPane } = Tabs;
 
 function callback(key) {
@@ -24,18 +24,18 @@ function callback(key) {
 export default class Tab extends React.Component {
     render() {
       return (
-        <div className='CharFrom-contain' style={{ padding: 24, background: '#fff', minHeight: 600 }}>
-           <div className='CharFrom-content'>
+        <div className='CharForm-contain' style={{ padding: 24, background: '#fff', minHeight: 600 }}>
+           <div className='CharForm-content'>
             
            <Tabs className="Tabs" defaultActiveKey="1" onChange={callback}>
             <TabPane tab="Tab 1" key="1">
-            <From1/>
+            <Form1/>
             </TabPane>
             <TabPane tab="Tab 2" key="2">
-            <From2/>
+            <Form2/>
             </TabPane>
             <TabPane tab="Tab 3" key="3">
-            <From3/>
+            <Form3/>
             </TabPane>
             </Tabs>
 
@@ -46,9 +46,13 @@ export default class Tab extends React.Component {
                 <Timeline.Item dot={<Icon type="clock-circle-o" style={{ fontSize: '16px' }} />}>待审核<Tag color="gray">审核中</Tag></Timeline.Item>
                 <Timeline.Item color="gray">结束</Timeline.Item>
                 </Timeline>
-                <div className='Idcard'>
+                <div className='CharForm-Idcard'>
                   <Idcard />
-                  <Link className='CharFrom-button' to={"/server/option1/upload/from/result"}><Button  type="primary">保存并下一步</Button></Link>
+                  <span>
+                    <Link  to={"/server/option1/upload/from/404"}><Button className='CharForm-button-404' >404</Button></Link>
+                    <Link className='CharForm-button' to={"/server/option1/upload/from/success"}><Button  type="primary">保存并下一步</Button></Link>
+                  </span>
+                  
                 </div>  
                 
            </div>

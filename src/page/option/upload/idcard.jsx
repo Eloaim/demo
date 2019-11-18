@@ -25,7 +25,7 @@ export default class Idcard extends React.Component {
             avatar={
               <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />
             }
-            title="Card title"
+            title="Eloaim"
             description="电话：13359993601"
           />
           <div className='Idcard-content'>

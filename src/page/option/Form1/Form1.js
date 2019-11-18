@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './From1.css'
+import './Form1.css'
 //import ReactDOM from 'react-dom';
 import {
   Form,
@@ -28,14 +28,14 @@ class Form1 extends React.Component {
   render() {
 
     return (
-        <div className='From1-title' style={{ padding: 24, background: '#fff'}}>
+        <div className='Form1-title' style={{ padding: 24, background: '#fff'}}>
                 <h1>黑龙江省网络安全和信息化技术中心</h1>
                 <h2>(黑龙江省国防科学技术研究院)</h2>
                 <h2>评测合同</h2>
-            <div className='From1-body'> 
+            <div className='Form1-body'> 
             <text>合同编号:</text>
-            <div className="From1-left-content"> 
-            <span className="From1-left"><text>委托方填写</text></span>
+            <div className="Form1-left-content"> 
+            <span className="Form1-left"><text>委托方填写</text></span>
                 <div>
                 <Descriptions className="Descriptions" title=""  bordered>
                 <Descriptions.Item label="产品名称" span={2}><Input placeholder="(应与软件著作权证书上的软件名称完全一致)" style={{border: 0}} /></Descriptions.Item>
@@ -85,8 +85,8 @@ class Form1 extends React.Component {
                 </div>
             
             </div> 
-            <div className="From1-left-content"> 
-                <span className="From1-left"><text>经营管理部填写</text></span>
+            <div className="Form1-left-content"> 
+                <span className="Form1-left"><text>经营管理部填写</text></span>
                 <div>
                 <Descriptions className="Descriptions" title=""  bordered>
                 <Descriptions.Item label="样品状态" span={2}>
