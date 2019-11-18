@@ -25,7 +25,7 @@ class Option1 extends React.Component {
   render() {
     return (
         <div className='option-contain' style={{ padding: 24, background: '#fff', minHeight: 600 }}>
-            <img className='imag-flow-char' src='https://thumbnail0.baidupcs.com/thumbnail/45a1b88f8e2f8831d2fa4e40c56a4d2b?fid=1396348235-250528-903094929563892&time=1573902000&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-NlaQBkFQ7KJOqzxvSpAZBuAT7iY%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=7417026837772501737&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video' alt='flow char'/>
+            <img className='imag-flow-char' src='https://thumbnail0.baidupcs.com/thumbnail/45a1b88f8e2f8831d2fa4e40c56a4d2b?fid=1396348235-250528-903094929563892&time=1573984800&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-tjm3R5hI1ds66MYoJPhBULhi%2FRA%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=7439156961410384346&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video' alt='flow char'/>
             <Link className='option-flowchar-button' to={"/server/option1/upload"}><Button  type="primary">开始测试</Button></Link>
         </div>
     );

@@ -1,0 +1,31 @@
+.From3-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(232, 232, 232);
+}
+.From3-content h1{
+    font-size: x-large ;
+}
+.From3-content h2{
+    font-size: large ;
+}
+.From3-content text{
+    padding: 3px;
+    align-self: baseline;
+}
+.content-end{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;   
+}
+.Appendix{
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    border: 1px solid rgb(232, 232, 232);
+}
+.body-end-content{
+    display: flex;
+    justify-content: space-between;
+}

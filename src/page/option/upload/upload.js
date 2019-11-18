@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import 'antd/dist/antd.css';
 import './upload.css'
+import Idcard from './idcard.jsx'
 const { Dragger } = Upload;
 
 const props = {
@@ -39,7 +40,7 @@ class upload extends React.Component {
     
   render() {
     return (
-        <div className='upload-contain' style={{ padding: 24, background: '#fff', minHeight: 600 }}>
+        <div className='upload-contain' style={{ padding: 24, background: '#fff'}}>
            <div className='upload-content'>
                 <Dragger className='Dragger' {...props}>
                 <p className="ant-upload-drag-icon">
@@ -57,6 +58,11 @@ class upload extends React.Component {
                 <Timeline.Item dot={<Icon type="clock-circle-o" style={{ fontSize: '16px' }} />}>待审核</Timeline.Item>
                 <Timeline.Item color="gray">结束</Timeline.Item>
                 </Timeline>
+                <div className='Idcard'>
+                  <Idcard />
+                  <Link className='upload-button' to={"/server/option1/upload/from"}><Button  type="primary">下一步</Button></Link>
+                </div>
+                
            </div>
 
         </div>
